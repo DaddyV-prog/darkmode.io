@@ -72,9 +72,11 @@ input[type=checkbox]:checked~.checked{
     background-color: white;
     box-shadow: 0 0 0 1200px rgb(0, 0, 0, 0.8);
 
+}br
+@media screen {
+    
+
 }
-@media (max-width:300px){
-    html{
-        font-size: 50.25%;
-    }
+@media screen {
+    
 }
