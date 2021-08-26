@@ -3,6 +3,7 @@ body{
     width: 300px;
     height: 470px;
     border-style: groove;
+    max-width: 490px;
     background-color: white;
     margin: auto;
     color: black;
