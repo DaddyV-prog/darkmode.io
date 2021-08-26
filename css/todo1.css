@@ -1,14 +1,12 @@
-body{
+body.home{
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 300px;
     height: 470px;
     border-style: groove;
-    max-width: 490px;
     background-color: white;
     margin: auto;
     color: black;
-    min-width: 300px;
-    max-width: 850px;
+   
 }
 .one{
     font-size: 30px;
@@ -50,7 +48,28 @@ body{
     position: absolute;
     top: 450px;
     left: 650px;
+    cursor: pointer;
 }
-@media screen {
-    
+.dark{
+    position: absolute;
+    top: 10px;
+    min-height: 100px;
+}
+input[type=checkbox]{
+    visibility: hidden;
+    display: none;
+}
+.checked{
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 30px;
+    background-color: black ;
+    cursor: pointer;
+    border-radius: 20px;
+}
+input[type=checkbox]:checked~.checked{
+    background-color: white;
+    box-shadow: 0 0 0 1200px rgb(0, 0, 0, 0.8);
+
 }
